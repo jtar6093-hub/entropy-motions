@@ -3,14 +3,24 @@
   text-align: center;
   color: white;
 }
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
 .title {
 
-  Font-size: 10vw;
+  font-size: 8vw;
   position: absolute;
   top: 8px;
   left: 16px;
 }
-
+.start {
+  Font-size: 6vw;
+}
+.forum {
+  Font-size: 6vw;
+}
 Img {
   max-width: 100%;
   height: auto;
