@@ -1,1 +1,17 @@
-a
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.title {
+
+  Font-size: 10vw;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+Img {
+  max-width: 100%;
+  height: auto;
+}
