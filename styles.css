@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+ color:white;
+}
+.title {
+
+  font-size: 8vw;
+  position: absolute;
+  top: 4vh;
+  left: 2vw;
+}
+.start {
+  Font-size: 6vw;
+}
+.forum {
+  Font-size: 6vw;
+}
+Img {
+  max-width: 100%;
+  height: auto;
+}
+.header {
+color: white;
+ font-size: 2vw;
+  position: absolute;
+  top: 0vh;
+  left: 2vw;
+  color: white;
+}
+
+.feedback {
+color: white;
+ font-size: 5vw;
+  position: absolute;
+  top: 140px;
+  left: 16px;
+}
+.next {
+color: white;
+ font-size: 5vw;
+  position: absolute;
+  top: 80vh;
+  left: 80vw;
+}
