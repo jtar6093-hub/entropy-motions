@@ -51,3 +51,38 @@ color: white;
   top: 80vh;
   left: 80vw;
 }
+.halldark {
+color: white;
+ font-size: 5vw;
+  position: absolute;
+  top: 40vh;
+  left: 17vw;
+}
+
+.halllight {
+color: white;
+ font-size: 5vw;
+  position: absolute;
+  top: 10vh;
+  left: 53vw;
+}
+.back {
+color: white;
+ font-size: 5vw;
+  position: absolute;
+  top: 70vh;
+  right: 40vw;
+}
+.backdarkhall {
+color: white;
+ font-size: 5vw;
+  position: absolute;
+  top: 100vh;
+  right: 40vw
+}
+.bathroom {
+color: white;
+ font-size: 5vw;
+  position: absolute;
+  top: 5vh;
+  right: 2vw
