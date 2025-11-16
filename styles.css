@@ -1,3 +1,23 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  animation: fadeFromBlack 1s ease forwards;
+}
+
+@keyframes fadeFromBlack {
+  0% {
+    opacity: 0;
+    background-color: black;
+  }
+  100% {
+    opacity: 1;
+    background-color: initial;
+  }
+}
+
 .container {
   position: relative;
   text-align: left;
@@ -66,23 +86,24 @@ color: white;
   top: 10vh;
   left: 53vw;
 }
-.back {
+.backdoublehall {
 color: white;
  font-size: 5vw;
   position: absolute;
-  top: 70vh;
-  right: 40vw;
+  top: 40vh;
+  right: 32vw;
 }
 .backdarkhall {
 color: white;
  font-size: 5vw;
   position: absolute;
-  top: 100vh;
-  right: 40vw
+  top: 83vh;
+  right: 45vw
 }
 .bathroom {
 color: white;
  font-size: 5vw;
   position: absolute;
-  top: 5vh;
-  right: 2vw
+  top: 30vh;
+  right: 45vw;
+}
