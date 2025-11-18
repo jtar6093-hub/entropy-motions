@@ -72,30 +72,39 @@ color: white;
   left: 80vw;
 }
 .halldark {
-color: white;
- font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  text-align: center;
+  color: white;
+  font-size: 5vw;
   position: absolute;
   top: 40vh;
   left: 17vw;
 }
 
 .halllight {
-color: white;
- font-size: 5vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  text-align: center;
+  color: white;
+  font-size: 5vw;
   position: absolute;
-  top: 10vh;
+  top: -3vh;
   left: 53vw;
 }
-.backdoublehall {
-color: white;
- font-size: 5vw;
+.backsplithall {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  text-align: center;
+  color: white;
+  font-size: 5vw;
   position: absolute;
   top: 40vh;
   right: 32vw;
 }
 .backdarkhall {
-color: white;
- font-size: 5vw;
+  color: white;
+  font-size: 5vw;
   position: absolute;
   top: 83vh;
   right: 45vw
