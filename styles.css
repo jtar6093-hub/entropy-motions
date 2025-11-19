@@ -20,7 +20,7 @@ body {
 
 .container {
   position: relative;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
@@ -115,4 +115,11 @@ color: white;
   position: absolute;
   top: 30vh;
   right: 45vw;
+}
+.chapelexit {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  right: 5vw;
 }
