@@ -100,7 +100,7 @@ color: white;
   font-size: 5vw;
   position: absolute;
   top: 40vh;
-  right: 32vw;
+  right: 25vw;
 }
 .backdarkhall {
   color: white;
@@ -113,7 +113,7 @@ color: white;
 color: white;
  font-size: 5vw;
   position: absolute;
-  top: 30vh;
+  top: 40vh;
   right: 45vw;
 }
 .chapelexit {
@@ -122,4 +122,31 @@ color: white;
   position: absolute;
   top: 40vh;
   right: 5vw;
+}
+.box {
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.box::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.box:hover::after {
+  opacity: 1;
 }
