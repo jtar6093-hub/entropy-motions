@@ -107,7 +107,8 @@ color: white;
   font-size: 5vw;
   position: absolute;
   top: 83vh;
-  right: 45vw
+  right: 45vw;
+ background-color: rgba(0, 0, 0, 0.1);
 }
 .bathroom {
 color: white;
@@ -122,6 +123,27 @@ color: white;
   position: absolute;
   top: 40vh;
   right: 5vw;
+}
+.exit1{
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 30vh;
+  left: 20vw;
+}
+.blocked1{
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+}
+.neyen {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  left: 45vw;
 }
 .box {
   display: block;
