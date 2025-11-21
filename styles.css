@@ -153,6 +153,33 @@ color: white;
   position: relative;
 }
 
+.window1 {
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 45vh;
+  right: 37vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+
+.window2 {
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 57vh;
+  right: 62vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+
+.alleydoor {
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 35vh;
+  right: 70vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+
 .box::after {
   content: attr(data-label);
   position: absolute;
