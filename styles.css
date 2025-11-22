@@ -145,14 +145,73 @@ color: white;
   top: 40vh;
   left: 45vw;
 }
-.box {
-  display: block;
-  width: 150px;
-  height: 100px;
-  background: rgba(0, 0, 0, 0.1);
-  position: relative;
+
+.hallway2{
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  left: 33vw;
 }
 
+.backneyen {
+color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 80vh;
+  left: 43vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+.stair1 {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  right: 23vw;
+}
+.lockedstair1 {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+}
+.lockedstair12 {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  right: 37vw;
+}
+.exit2 {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+}
+.backstair1 {
+color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 80vh;
+  left: 43vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+.exitlocked2 {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 35vh;
+  left: 37vw;
+}
+.exitlocked3 {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 42vh;
+  right: 18vw;
+}
 .window1 {
   color: white;
   font-size: 5vw;
@@ -179,7 +238,22 @@ color: white;
   right: 70vw;
  background-color: rgba(0, 0, 0, 0.1);
 }
-
+.backartroom{
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 35vh;
+  right: 8vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+.backalley {
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 50vh;
+  left: 24vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
 .box::after {
   content: attr(data-label);
   position: absolute;
@@ -195,6 +269,15 @@ color: white;
   pointer-events: none;
   transition: opacity 0.2s ease;
 }
+
+.box {
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
 
 .box:hover::after {
   opacity: 1;
