@@ -76,6 +76,7 @@ color: white;
   position: absolute;
   top: 80vh;
   left: 80vw;
+background-color: rgba(0, 0, 0, 0.1);
 }
 .dialog {
 color: white;
