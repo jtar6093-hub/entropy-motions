@@ -64,12 +64,38 @@ color: white;
   top: 140px;
   left: 16px;
 }
+
 .next {
 color: white;
  font-size: 5vw;
   position: absolute;
   top: 80vh;
   left: 80vw;
+}
+.dialog {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 60vh;
+  left: 1vw;
+ background-color: rgba(0, 0, 0, 0.6);
+padding: 100px;
+}
+.dialognext {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 52vh;
+  right: 5vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+.chapelexit {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 45vh;
+  right: 45vw;
+ background-color: rgba(0, 0, 0, 0.1);
 }
 .halldark {
   background-color: rgba(0, 0, 0, 0.1);
@@ -117,13 +143,7 @@ color: white;
   top: 40vh;
   right: 45vw;
 }
-.chapelexit {
-color: white;
- font-size: 3vw;
-  position: absolute;
-  top: 40vh;
-  right: 5vw;
-}
+
 .exit1{
 color: white;
  font-size: 3vw;
