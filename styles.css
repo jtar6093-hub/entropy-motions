@@ -164,7 +164,9 @@ color: white;
   position: absolute;
   top: 40vh;
   left: 45vw;
+  background-color: rgba(0, 0, 0, 0.1);
 }
+
 
 .hallway2{
 color: white;
@@ -181,6 +183,22 @@ color: white;
   top: 80vh;
   left: 43vw;
  background-color: rgba(0, 0, 0, 0.1);
+}
+.smallstairup {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 30vh;
+  left: 30vw;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.smallstairdown {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 70vh;
+  right: 40vw;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .stair1 {
 color: white;
