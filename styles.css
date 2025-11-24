@@ -313,7 +313,43 @@ color: white;
   pointer-events: none;
   transition: opacity 0.2s ease;
 }
-
+.stair1up {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 37vh;
+  right: 35vw;
+}
+.stair1down {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 80vh;
+  left: 23vw;
+}
+.knightradio {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  right: 22vw;
+}
+.sitarea {
+color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 50vh;
+  right: 10vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+.library {
+color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 40vh;
+  right: 30vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
 .box {
   display: block;
   width: 150px;
