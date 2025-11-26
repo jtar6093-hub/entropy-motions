@@ -385,7 +385,55 @@ color: white;
  background-color: rgba(0, 0, 0, 0.6);
 padding: 100px;
 }
-
+.stair2up{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 30vh;
+  left: 43vw;
+}
+.hallway4{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  right: 7vw;
+}
+.stairs3{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  right: 44vw;
+}
+.classroom2{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 40vh;
+  left: 25vw;
+}
+.classroom3{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 50vh;
+  right: 20vw;
+}
+.stairs3locked{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 50vh;
+  right: 43vw;
+}
+.enterbackalley{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 10vh;
+  left: 30vw;
+}
 .box {
   display: block;
   width: 150px;
@@ -393,8 +441,6 @@ padding: 100px;
   background: rgba(0, 0, 0, 0.1);
   position: relative;
 }
-
-
 .box:hover::after {
   opacity: 1;
 }
