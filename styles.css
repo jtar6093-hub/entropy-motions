@@ -466,7 +466,40 @@ padding: 100px;
  background-color: rgba(0, 0, 0, 0.6);
 padding: 100px;
 }
-
+.johnnext {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 29vh;
+  left: 80vw;
+background-color: rgba(0, 0, 0, 0.1);
+}
+.list {
+color: white;
+ font-size: 2vw;
+  position: absolute;
+  top: 35vh;
+  left: 0vw;
+ background-color: rgba(0, 0, 0, 0.6);
+ padding: 100px;
+}
+table {
+  color: white;
+  width: 100%;
+  font-size: 3vw;
+  position: absolute;
+  top: 60vh;
+  left: 0;
+  text-align: center;
+ background-color: rgba(0, 0, 0, 0.6);
+ padding: 100px;
+}
+.cheesecake {
+  top:0;
+  left:0;
+  width:100%;
+  height:500;
+}
 .box {
   display: block;
   width: 150px;
