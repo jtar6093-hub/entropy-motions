@@ -450,6 +450,23 @@ padding: 100px;
  background-color: rgba(0, 0, 0, 0.6);
 padding: 100px;
 }
+.john{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 53vh;
+  right: 33vw;
+}
+.johndialog1{
+	color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 60vh;
+  left: 10vw;
+ background-color: rgba(0, 0, 0, 0.6);
+padding: 100px;
+}
+
 .box {
   display: block;
   width: 150px;
