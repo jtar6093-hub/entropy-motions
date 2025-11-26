@@ -350,6 +350,33 @@ color: white;
   right: 30vw;
  background-color: rgba(0, 0, 0, 0.1);
 }
+
+.stair2 {
+color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 40vh;
+  right: 53vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+.talkingian {
+color: white;
+  font-size: 3vw;
+  position: absolute;
+  top: 50vh;
+  right: 28vw;
+ background-color: rgba(0, 0, 0, 0.1);
+}
+.dialogian {
+color: white;
+ font-size: 3vw;
+  position: absolute;
+  top: 60vh;
+  left: 27vw;
+ background-color: rgba(0, 0, 0, 0.6);
+padding: 100px;
+}
+
 .box {
   display: block;
   width: 150px;
